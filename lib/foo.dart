@@ -17,9 +17,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         home: Scaffold(
-            floatingActionButton: Container(
-              child: Icon(Icons.save),
-            ),
+            floatingActionButton: const Icon(Icons.save),
             body: ListView.builder(
                 itemCount: moodSections.length,
                 itemBuilder: ((context, index) =>
@@ -29,7 +27,7 @@ class HomePage extends StatelessWidget {
 }
 
 class MoodWidget extends StatefulWidget {
-  MoodWidget({
+  const MoodWidget({
     required this.sectionTitle,
     Key? key,
   }) : super(key: key);

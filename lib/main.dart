@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'foo.dart';
 
 void main() {
-  runApp(const MyApp());
+  runApp(HomePage());
 }
 
+
+/*
 class IconesWidged extends StatelessWidget {
   const IconesWidged({super.key, required this.resumo});
 
@@ -163,3 +166,4 @@ SizedBox _withbutton(
     ),
   );
 }
+*/
